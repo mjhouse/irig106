@@ -1,0 +1,15 @@
+[package]
+name = "irig_106"
+version = "0.1.0"
+edition = "2024"
+license = "GPL-3.0-only"
+description = "A parsing library for IRIG telemetry data"
+homepage = "https://github.com/mjhouse/irig_106"
+repository = "https://github.com/mjhouse/irig_106"
+readme = "README.md"
+keywords = [ "irig", "parse", "telemetry" ]
+categories = [  ]
+
+[dependencies]
+itertools = "0.14.0"
+simple_endian = "0.3.2"
